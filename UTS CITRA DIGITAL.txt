@@ -1,0 +1,17 @@
+nomor 1:
+nilai keabuan dari ketiga hasil gambar hampir sama namun berbanding terbalik.
+
+nomor 2:
+Citra dengan Dynamic Range Tinggi: 
+Digunakan ketika citra memiliki rentang nilai input yang sangat luas 
+(misalnya spektrum Fourier), di mana terdapat nilai yang sangat besar
+namun kita ingin melihat detail pada nilai yang kecil.
+
+Citra Terlalu Gelap (Underexposed):
+Jika sebuah gambar memiliki detail yang tersembunyi di area bayangan atau hitam,
+fungsi logaritma akan "menarik" nilai-nilai rendah tersebut ke arah tengah (lebih terang) secara non-linear,
+sehingga detail visualnya muncul tanpa memutihkan (wash out) seluruh gambar secara ekstrem seperti penambahan kecerahan biasa.
+
+Analisis Medis atau Satelit:
+Sering digunakan pada hasil rontgen atau citra radar di mana perbedaan kecil pada intensitas rendah 
+mengandung informasi penting yang sulit ditangkap oleh mata manusia dalam format linear.
